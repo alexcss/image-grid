@@ -1,5 +1,5 @@
 body{
-
+	color: #4D5152;
 }
 
 /* Typography */
@@ -54,4 +54,14 @@ textarea {
 .ba-container{
 	padding-left: 20px;
 	padding-right: 20px;
+	padding: 20px;
+	max-width: 1200px;
+}
+.ba-box{
+	padding: 20px;
+	background: grey;
+}
+.ba-grid > [class*="ba-width-"] > img{
+	display: block;
+
 }
